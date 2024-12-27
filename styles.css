@@ -890,7 +890,7 @@ body {
 }
 
 /* Mobile Menu */
-.menu-toggle {
+.nav-toggle {
     display: none;
     background: none;
     border: none;
@@ -899,12 +899,6 @@ body {
     cursor: pointer;
     z-index: 1000;
 }
-.fa-solid, .fas {
-    font-size: 1.5rem;
-    text-decoration: none;
-    padding: 0.2rem;
-}
-
 
 .mobile-menu {
     display: none;
@@ -965,8 +959,9 @@ body {
         display: none;
     }
 
-    .menu-toggle {
+    .nav-toggle {
         display: block;
+        color: #0a192f;
     }
 
     .mobile-menu {
