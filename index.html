@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebot-Kharkiv - Сучасна стоматологія</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">
+                    <i class="fas fa-tooth"></i>
+                    Kebot-Kharkiv
+                </a>
+                
+                <!-- Desktop Menu -->
+                <ul class="nav-links">
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#technology">Технології</a></li>
+                    <li><a href="#team">Команда</a></li>
+                    <li><a href="#testimonials">Відгуки</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                    <li>
+                        <a href="#appointment" class="appointment-btn">
+                            Записатися
+                            <i class="fas fa-calendar-alt"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Mobile Menu Button -->
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Mobile Menu -->
+                <div class="mobile-menu">
+                    <button class="menu-close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul>
+                        <li><a href="#services">Послуги</a></li>
+                        <li><a href="#technology">Технології</a></li>
+                        <li><a href="#team">Команда</a></li>
+                        <li><a href="#testimonials">Відгуки</a></li>
+                        <li><a href="#contact">Контакти</a></li>
+                        <li>
+                            <a href="#appointment" class="appointment-btn">
+                                Записатися
+                                <i class="fas fa-calendar-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Ваша усмішка - наша гордість</h1>
+                    <p>Довіртеся професіоналам у сфері стоматології. Ми використовуємо найсучасніші технології та індивідуальний підхід до кожного пацієнта.</p>
+                    <div class="hero-buttons">
+                        <a href="#appointment" class="btn btn-primary">
+                            <i class="fas fa-calendar-alt"></i>
+                            Записатися на прийом
+                        </a>
+                        <a href="#services" class="btn btn-secondary">
+                            <i class="fas fa-tooth"></i>
+                            Наші послуги
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">
+                                <i class="fas fa-smile"></i>
+                                5000+
+                            </div>
+                            <div class="stat-label">Щасливих пацієнтів</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">
+                                <i class="fas fa-certificate"></i>
+                                15+
+                            </div>
+                            <div class="stat-label">Років досвіду</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">
+                                <i class="fas fa-star"></i>
+                                4.9
+                            </div>
+                            <div class="stat-label">Рейтинг клініки</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8ZGVudGFsfHx8fHx8MTY5Mjg5NzY5Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Dental Clinic">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Наші послуги</h2>
+                    <p>Ми пропонуємо повний спектр стоматологічних послуг з використанням найсучасніших технологій</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tooth"></i>
+                        </div>
+                        <h3>Профілактична стоматологія</h3>
+                        <p>Професійна чистка зубів, фторування, герметизація фісур та інші профілактичні процедури.</p>
+                        <a href="#" class="service-button">
+                            Дізнатися більше
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-teeth"></i>
+                        </div>
+                        <h3>Естетична стоматологія</h3>
+                        <p>Відбілювання зубів, вінірування, художня реставрація та корекція естетичних недоліків.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-x-ray"></i>
+                        </div>
+                        <h3>Ортодонтія</h3>
+                        <p>Виправлення прикусу за допомогою брекет-систем, елайнерів та інших сучасних методик.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-teeth-open"></i>
+                        </div>
+                        <h3>Імплантація</h3>
+                        <p>Встановлення зубних імплантів з використанням передових технологій та матеріалів.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3>Протезування</h3>
+                        <p>Виготовлення та встановлення коронок, мостів та знімних протезів найвищої якості.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3>Дитяча стоматологія</h3>
+                        <p>Спеціалізований догляд за зубами дітей з особливим підходом та атмосферою.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="technology" class="technology">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Сучасні технології</h2>
+                    <p>Отримайте досвід майбутнього стоматології</p>
+                </div>
+                <div class="tech-showcase">
+                    <div class="tech-item">
+                        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09" alt="Цифрове сканування">
+                        <h3>3D Цифрове сканування</h3>
+                        <p>Точні цифрові відбитки без дискомфорту</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="https://images.unsplash.com/photo-1629909615184-74f495363b67" alt="AI Діагностика">
+                        <h3>AI-діагностика</h3>
+                        <p>Сучасне виявлення карієсу та планування лікування</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Наша команда</h2>
+                    <p>Досвідчені спеціалісти, які дбають про ваше здоров'я та красу посмішки</p>
+                </div>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Олександр Петренко">
+                        </div>
+                        <div class="team-info">
+                            <h3>Олександр Петренко</h3>
+                            <p>Головний лікар, стоматолог-ортопед</p>
+                            <div class="specialties">
+                                <span>Імплантація</span>
+                                <span>Протезування</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Марія Коваленко">
+                        </div>
+                        <div class="team-info">
+                            <h3>Марія Коваленко</h3>
+                            <p>Стоматолог-терапевт</p>
+                            <div class="specialties">
+                                <span>Естетична реставрація</span>
+                                <span>Лікування карієсу</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80" alt="Ірина Василенко">
+                        </div>
+                        <div class="team-info">
+                            <h3>Ірина Василенко</h3>
+                            <p>Стоматолог-ортодонт</p>
+                            <div class="specialties">
+                                <span>Брекет-системи</span>
+                                <span>Елайнери</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Відгуки наших пацієнтів</h2>
+                    <p>Думки та враження людей, які довірили нам свої посмішки</p>
+                </div>
+                <div class="testimonials-slider">
+                    <div class="testimonials-track">
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"Надзвичайно професійний підхід! Вперше за довгий час не боялася відвідувати стоматолога. Затишна атмосфера та уважний персонал зробили мій візит максимально комфортним."</p>
+                                <div class="testimonial-author">
+                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3" alt="Марія">
+                                    <div class="author-info">
+                                        <h4>Марія Ковальчук</h4>
+                                        <p>Пацієнт клініки</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"Дуже вдячний за якісне лікування та професійний підхід. Особливо сподобалось використання сучасних технологій та детальне пояснення кожного етапу лікування."</p>
+                                <div class="testimonial-author">
+                                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3" alt="Олександр">
+                                    <div class="author-info">
+                                        <h4>Олександр Мельник</h4>
+                                        <p>Пацієнт клініки</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"Чудова клініка! Вирішили проблему, з якою я мучився кілька років. Приємно здивований сучасним обладнанням та привітним персоналом. Рекомендую всім!"</p>
+                                <div class="testimonial-author">
+                                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3" alt="Віктор">
+                                    <div class="author-info">
+                                        <h4>Віктор Петренко</h4>
+                                        <p>Пацієнт клініки</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"Дуже задоволена результатом! Відмінний сервіс, уважне ставлення до пацієнта та професійне виконання роботи. Тепер це моя постійна стоматологія."</p>
+                                <div class="testimonial-author">
+                                    <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3" alt="Анна">
+                                    <div class="author-info">
+                                        <h4>Анна Литвиненко</h4>
+                                        <p>Пацієнт клініки</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="chatbot-widget">
+        <div class="chatbot-toggle">
+            <i class="fas fa-comments"></i>
+        </div>
+        <div class="chatbot-container">
+            <div class="chatbot-header">
+                <h3>Стоматологічний асистент</h3>
+                <button class="close-chat"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chat-messages">
+                <!-- Повідомлення будуть заповнені JavaScript -->
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Напишіть своє питання...">
+                <button class="send-message"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <i class="fas fa-tooth"></i>
+                        <span>Kebot-Kharkiv</span>
+                    </div>
+                    <p>Преміум стоматологічний догляд для вашої родини</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Швидкі посилання</h4>
+                    <ul>
+                        <li><a href="#services">Послуги</a></li>
+                        <li><a href="#team">Наша команда</a></li>
+                        <li><a href="#testimonials">Відгуки</a></li>
+                        <li><a href="#contact">Контакти</a></li>
+                    </ul>
+                </div>
+                <div id="contact" class="footer-contact">
+                    <h4>Контакти</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Стоматологічна вулиця, Харків</p>
+                    <p><i class="fas fa-phone"></i> +380 XX XXX XXXX</p>
+                    <p><i class="fas fa-envelope"></i> info@kebot-kharkiv.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kebot-Kharkiv. Всі права захищені.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
